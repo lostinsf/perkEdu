@@ -1,0 +1,19 @@
+#FOLDER
+.next/
+.vscode/
+node_modules/
+public/
+
+#FILE (HIDDEN)
+.env
+.eslintignore
+.gitignore
+.prettierignore
+
+#FILE
+babel.config.js
+Dockerfile
+next-i18next.config.js
+next.config.js
+package-lock.json
+yarn-lock.json

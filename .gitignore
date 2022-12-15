@@ -1,0 +1,11 @@
+#FOLDER
+.next/
+.vscode/
+node_modules/
+
+#FILE (HIDDEN)
+.env
+
+#FILE
+package-lock.json
+yarn-lock.json
