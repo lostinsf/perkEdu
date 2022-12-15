@@ -29,7 +29,7 @@
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
     "next": "^12.1.4",
-    "next-i18next": "^11.0.0",
+    "next-i18next": "latest",
     "next-intercept-stdout": "^1.0.1",
     "next-pwa": "^5.5.0",
     "next-seo": "^5.4.0",
