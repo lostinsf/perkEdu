@@ -1,0 +1,25 @@
+{
+  "title": "pekrEdu, pwa",
+  "description": "교육용 테스트 홈페이지 입니다.",
+  "openGraph": {
+    "title": "pekrEdu, pwa",
+    "description": "교육용 테스트 홈페이지 입니다.",
+    "type": "website",
+    "locale": "ko_KR",
+    "url": "https://pekredu.azurewebsites.net/",
+    "site_name": "pekrEdu",
+    "images": [
+      {
+        "url": "https://pekredu.azurewebsites.net/og_image.png",
+        "width": 800,
+        "height": 400,
+        "alt": "og_image"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs",
+    "cardType": "summary_large_image"
+  }
+}
