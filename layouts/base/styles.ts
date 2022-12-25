@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
-import { breakPoints, defaultTheme } from '@lib/styles/themes';
+import { breakPoints, defaultTheme } from 'libs/styles/themes';
 
+// 레이아웃 베이스 스타일
 export const Wrapper = styled.div`
   box-sizing: border-box;
   position: relative;

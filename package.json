@@ -105,8 +105,8 @@
       "@layouts/*": [
         "layouts/*"
       ],
-      "@lib/*": [
-        "lib/*"
+      "@libs/*": [
+        "libs/*"
       ],
       "@utils/*": [
         "utils/*"

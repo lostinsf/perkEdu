@@ -9,11 +9,12 @@ import { ToastContainer } from 'react-toastify';
 import { RecoilRoot } from 'recoil';
 import { SWRConfig } from 'swr';
 import { CacheProvider, EmotionCache, Global, ThemeProvider } from '@emotion/react';
-import config from '@lib/configs/seo.json';
-import { PromptToInstallProvider } from '@lib/contexts/pwa_context';
-import { globalStyles } from '@lib/styles/globals';
-import { defaultTheme } from '@lib/styles/themes';
-import { createEmotionCache, gaEvent, gaPageView } from '@utils/index';
+import config from 'libs/seo/seo.json';
+import { PromptToInstallProvider } from 'libs/pwa/context';
+import { globalStyles } from 'libs/styles/globals';
+import { defaultTheme } from 'libs/styles/themes';
+import { createEmotionCache } from '@utils/emotion';
+import { gaEvent, gaPageView } from '@utils/ga';
 import 'react-toastify/dist/ReactToastify.css';
 
 type MyAppProps = {

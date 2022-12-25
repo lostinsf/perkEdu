@@ -10,6 +10,7 @@ type BaseLayoutProps = {
 function BaseLayout(props: BaseLayoutProps): JSX.Element {
   const { children } = props;
 
+  // 브라우져 리사이징 감지
   const handleResize = useCallback(() => {
     const doc = document.documentElement;
     doc.style.setProperty('--app-height', `${window.innerHeight}px`);
