@@ -6,6 +6,7 @@ export const IntroSectionComponent = styled.section`
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
@@ -23,7 +24,7 @@ export const IntroSectionCenterContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(${process.env.NEXT_PUBLIC_STORAGE_URL}about2.jpg) center center/cover;
+  background: url(${process.env.NEXT_PUBLIC_STORAGE_URL}about1.jpg) center center/cover;
 `;
 
 export const IntroSectionBottomContainer = styled.div`

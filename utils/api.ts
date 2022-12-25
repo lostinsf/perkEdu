@@ -1,5 +1,5 @@
 import Axios, { AxiosInstance } from 'axios';
-import appConfig from '@lib/configs/app.configs';
+import { appConfig } from 'libs/seo/interfaces';
 
 //  api.ts : 노드 서버 접속을 위한 axios 상수
 

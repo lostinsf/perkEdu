@@ -7,7 +7,7 @@ import {
   IntroSectionBottomContainer,
 } from './styles';
 
-// 컨포넌트 인트로스크린 기능
+// 컴포넌트 인트로스크린 기능
 function IntroSection(): JSX.Element {
   return (
     <IntroSectionComponent>

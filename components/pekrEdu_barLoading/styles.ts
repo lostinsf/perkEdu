@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import { zIndexes } from '@lib/styles/themes';
+import { zIndexes } from 'libs/styles/themes';
 
-// 컨포넌트 로딩바 스타일
+// 컴포넌트 로딩바 스타일
 export const LoadingBarComponent = styled.section`
   position: fixed;
   width: 100%;

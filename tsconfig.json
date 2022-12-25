@@ -31,7 +31,7 @@
         "layouts/*"
       ],
       "@lib/*": [
-        "lib/*"
+        "libs/*"
       ],
       "@utils/*": [
         "utils/*"

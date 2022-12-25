@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRecoilValueLoadable } from 'recoil';
 import Home from '@features/home';
 import BaseLayout from '@layouts/base';
-import { profileState } from '@lib/recoils/profile_stats';
+import { profileState } from 'libs/recoils/profile_stats';
 import LoadingBar from '@components/pekrEdu_barLoading';
 
 const HomePage: NextPage = () => {
