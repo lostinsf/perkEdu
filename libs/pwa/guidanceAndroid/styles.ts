@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { defaultTheme, zIndexes } from 'libs/styles/themes';
 
+// 라이브러리 PWA 안드로이드가이드 메인 스타일
 export const Wrapper = styled.div`
   padding: 24px 20px 60px;
   position: fixed;

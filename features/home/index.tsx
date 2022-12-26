@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import IsEqual from 'react-fast-compare';
-import IntroSection from '@components/pekrtEdu_sectionIntro';
+import IntroSection from '@components/sectionIntro';
 
 // 조합 메인 기능
 function Home(): JSX.Element {

@@ -4,7 +4,8 @@ import { Theme } from '@emotion/react';
 export const zIndexes = {
   layout: 1, // 레이아웃 레이어
   component: 10, // 컴포넌트 레이어
-  loading: 100, // 로딩 레이어
+  loading: 100, // 최상위 레이어
+  pwaPrompt: 101,
 };
 
 // 반응형: 넓이

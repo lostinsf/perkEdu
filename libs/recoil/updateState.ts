@@ -1,10 +1,10 @@
 import { atom } from 'recoil';
-import { CreateWalkRequest } from 'libs/database/dto/account';
+import { CreateAccountDTO } from 'libs/database/dto/account';
 
 export interface UpdateWalkModalStates {
   isOpen: boolean;
   isUploading: boolean;
-  req?: CreateWalkRequest;
+  req?: CreateAccountDTO;
 }
 
 export const defaultState: UpdateWalkModalStates = {

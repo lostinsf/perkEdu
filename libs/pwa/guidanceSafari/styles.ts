@@ -2,9 +2,11 @@ import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { zIndexes } from 'libs/styles/themes';
 
+// 라이브러리 PWA 가이드 사파리 스타일
 type OverlayProps = {
   $isShow: boolean;
 };
+
 export const Overlay = styled.div<OverlayProps>`
   position: absolute;
   bottom: 0;
@@ -26,6 +28,7 @@ export const Overlay = styled.div<OverlayProps>`
 type ContainerProps = {
   $isShow: boolean;
 };
+
 export const Container = styled.div<ContainerProps>`
   position: fixed;
   bottom: 0;

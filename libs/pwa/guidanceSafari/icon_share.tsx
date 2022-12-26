@@ -1,6 +1,7 @@
 import { memo } from 'react';
 import IsEqual from 'react-fast-compare';
 
+// 라이브러리 PWA 사파리가이드 공유아이콘 타잎 및 기능
 type IconShareProps = {
   className?: string;
 };

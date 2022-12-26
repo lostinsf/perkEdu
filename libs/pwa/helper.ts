@@ -1,6 +1,6 @@
-import { PlatformType, PwaNavigator } from './interfaces';
+import { PlatformType, PwaNavigator } from './interface';
 
-// 라이브러리 PWA 브라우져 환경 값
+// 라이브러리 PWA 헬퍼 설정 및 기능
 const testPlatform = {
   iPhone: /iphone|ipad|ipod/i,
   android: /android/i,
