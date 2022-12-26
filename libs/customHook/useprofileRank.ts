@@ -1,7 +1,8 @@
 import useSWR from 'swr';
-import { ProfileStates } from 'libs/recoils/profile_stats';
+import { ProfileStates } from 'libs/recoil/profileState';
 import { getMyRankFixedAsync, getMyRankFixedRoute } from 'libs/database/service/rank';
 
+// 라이브러리 커스텀훅 프로파일 랭크 설정 및 기능
 interface ProfileRankState {
   rank?: number;
   isLoading: boolean;

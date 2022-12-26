@@ -1,10 +1,10 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { getCookieValue, setCookie } from '@utils/cookie';
 import PromptGuidance from './guidance';
-import { getPlatform } from './helpers';
-import { BeforeInstallPromptEvent, PlatformInfo, PwaPromptCtx } from './interfaces';
+import { getPlatform } from './helper';
+import { BeforeInstallPromptEvent, PlatformInfo, PwaPromptCtx } from './interface';
 
-// 라이브러리 PWA 설치 설정 값, 타잎 및 기능
+// 라이브러리 PWA 컨텍스트 설정 및 기능
 const PromptToInstall = createContext<PwaPromptCtx>({
   deferredPromptEvent: null,
   isInstalled: false,

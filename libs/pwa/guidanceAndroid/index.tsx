@@ -3,6 +3,7 @@ import { memo } from 'react';
 import IsEqual from 'react-fast-compare';
 import { AddButton, CloseButton, Container, IconContainer, InfoContainer, Wrapper } from './styles';
 
+// 라이브러리 PWA 안드로이드가이드 메인 타잎 및 기능
 type GuidanceeAndroidProps = {
   onAddClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onCloseClick: () => void;

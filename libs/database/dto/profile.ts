@@ -1,4 +1,4 @@
-// 라이브러리 데이터베이스 디티오 프로파일 인터페이스
+// 라이브러리 프로파일 데이터베이스 디티오
 export interface CreateProfileDTO {
   nickName: string;
   phoneNumber: string;

@@ -3,8 +3,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRecoilValueLoadable } from 'recoil';
 import Home from '@features/home';
 import BaseLayout from '@layouts/base';
-import { profileState } from 'libs/recoils/profile_stats';
-import LoadingBar from '@components/pekrEdu_barLoading';
+import { profileState } from 'libs/recoil/profileState';
+import LoadingBar from '@components/barLoading';
 
 const HomePage: NextPage = () => {
   const profileLoadable = useRecoilValueLoadable(profileState);

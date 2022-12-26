@@ -4,6 +4,7 @@ import IconHome from './icon_home';
 import IconShare from './icon_share';
 import { Body, Cancel, Container, Header, Instruction, Title, Overlay } from './styles';
 
+// 라이브러리 PWA IOS 가이드 공유아이콘 타잎 및 기능
 type GuidanceSafariProps = {
   onCancelClick: () => void;
 };

@@ -3,9 +3,9 @@ import IsEqual from 'react-fast-compare';
 import { toast } from 'react-toastify';
 import GuidanceAndroid from './guidanceAndroid';
 import GuidanceSafari from './guidanceSafari';
-import { PwaPromptCtx } from './interfaces';
+import { PwaPromptCtx } from './interface';
 
-// 라이브러리 PWA 설치 랜더 설정 타잎 및 기능
+// 라이브러리 PWA 가이드 설정 및 기능
 type PwaGuidanceProps = {
   ctxValue: PwaPromptCtx;
 };

@@ -1,7 +1,7 @@
 import { createAxiosInstance } from '@utils/api';
 import { SearchUploadDTO } from '../dto/upload';
 
-// 라이브러리 데이터베이스 업로드 계정 설정 및 기능
+// 라이브러리 데이터베이스 서비스 업로드 설정 및 기능
 export const uploadImageAsync = async (
   data: FormData,
   handleUploadProgress?: (progressEvent: unknown) => void,

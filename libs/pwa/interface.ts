@@ -1,4 +1,4 @@
-// 라이브러리 PWA 설정 값
+// 라이브러리 PWA 인터페이스
 export interface PwaNavigator extends Navigator {
   standalone: boolean;
 }
